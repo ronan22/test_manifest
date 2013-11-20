@@ -1,5 +1,7 @@
 <manifest>
   <remote fetch="ssh://review.tizen.org" name="tizen-gerrit" />
+  <remote fetch="ssh://git@github.com" name="github" />
   <default remote="tizen-gerrit"/>
-    <project name="platform/core/api/connection" path="platform/core/api/connection" revision="tizen"/>
+  <project name="platform/core/api/connection" path="connection" revision="tizen"/>
+  <project name="ronan22/OpenTizen-bc" path="bc" revision="opentizen" remote="github"/>
 </manifest>
