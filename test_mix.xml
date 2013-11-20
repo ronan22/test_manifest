@@ -1,0 +1,5 @@
+<manifest>
+  <remote fetch="ssh://review.tizen.org" name="tizen-gerrit" />
+  <default remote="tizen-gerrit"/>
+    <project name="platform/core/api/connection" path="platform/core/api/connection" revision="tizen"/>
+</manifest>
