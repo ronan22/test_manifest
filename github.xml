@@ -1,0 +1,28 @@
+<manifest xmlns:tz="http://tizen.org">
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <default remote="github"/> 
+
+  <!-- FORK FROM tizen.org -->
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-112 -->
+  <project path="python-ecore" name="eurogiciel-oss/OpenTizen-python-ecore.git" revision="opentizen" tz:origin_name="platform/upstream/python-ecore" tz:origin_revision="submit/tizen/20130710.134348" tz:origin_remote="tizen-gerrit" />
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-113 -->
+  <project path="python-edje" name="eurogiciel-oss/OpenTizen-python-edje.git" revision="opentizen"  tz:origin_name="platform/upstream/python-edje"  tz:origin_revision="submit/tizen/20130710.134403" tz:origin_remote="tizen-gerrit" />
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-114 -->
+  <project path="python-evas" name="eurogiciel-oss/OpenTizen-python-evas.git" revision="opentizen"  tz:origin_name="platform/upstream/python-evas"  tz:origin_revision="submit/tizen/20130710.134418" tz:origin_remote="tizen-gerrit"/>
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-115 -->
+  <project path="python-elementary" name="eurogiciel-oss/OpenTizen-python-elementary.git" revision="opentizen"  tz:origin_name="platform/upstream/python-elementary"  tz:origin_revision="submit/tizen/20130710.134410" tz:origin_remote="tizen-gerrit"/>
+  <!-- add by Ronan to rebuild arm arch without infinit waiting-->
+  <project path="qemu" name="eurogiciel-oss/openTizen-qemu.git" revision="tizen"  tz:origin_name="platform/upstream/qemu"  tz:origin_revision="submit/tizen/20130828.210904" tz:origin_remote="tizen-gerrit"/>
+  
+  <!-- NEW PACKAGE -->
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-111 ronan Le Martret -->
+  <!-- https://bugs.tizen.org/jira/browse/TINF-370 ronan Le Martret -->
+  <project path="python-cython" name="eurogiciel-oss/OpenTizen-python-cython.git" revision="opentizen"/>
+  <!-- Stephane Desneux -->
+  <project path="wrt_widgets" name="eurogiciel-oss/OpenTizen-wrt_widgets.git" revision="master"/>
+  <!-- Stephane Desneux -->
+  <project path="desktop-skin" name="eurogiciel-oss/OpenTizen-desktop-skin.git" revision="master"/>
+
+  
+  
+</manifest>
