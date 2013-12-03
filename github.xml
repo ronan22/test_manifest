@@ -13,6 +13,18 @@
   <project path="python-elementary" name="eurogiciel-oss/OpenTizen-python-elementary.git" revision="opentizen"  tz:origin_name="platform/upstream/python-elementary"  tz:origin_revision="submit/tizen/20130710.134410" tz:origin_remote="tizen-gerrit"/>
   <!-- add by Ronan to rebuild arm arch without infinit waiting-->
   <project path="qemu" name="eurogiciel-oss/openTizen-qemu.git" revision="tizen"  tz:origin_name="platform/upstream/qemu"  tz:origin_revision="submit/tizen/20130828.210904" tz:origin_remote="tizen-gerrit"/>
+  <!-- https://review.tizen.org/gerrit/#/c/12406/ Baptiste DURAND -->
+  <project path="system-server" name="eurogiciel-oss/tizen-system-server.git" revision="tizen" tz:origin_name="platform/core/system/system-server"  tz:origin_revision="refs/changes/06/12406/1" tz:origin_remote="tizen-gerrit"/>
+  <!-- https://review.tizen.org/gerrit/#/c/12496/ Stephane Desneux -->
+  <project path="com-core" name="eurogiciel-oss/tizen-com-core.git" revision="tizen" tz:origin_name="platform/core/appfw/com-core" tz:origin_revision="refs/changes/96/12496/1"  tz:origin_remote="tizen-gerrit"/>
+  <!-- https://review.tizen.org/gerrit/#/c/12497/ Stephane Desneux -->
+  <project path="efl-assist" name="eurogiciel-oss/tizen-efl-assist.git" revision="tizen" tz:origin_name="platform/core/uifw/efl-assist" tz:origin_revision="refs/changes/97/12497/1" tz:origin_remote="tizen-gerrit"/>
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-123 ronan Le Martret-->
+  <project path="gettext" name="eurogiciel-oss/tizen-gettext.git" revision="tizen" tz:origin_name="platform/upstream/gettext" tz:origin_revision="refs/changes/87/12587/1" tz:origin_remote="tizen-gerrit"/>
+  <!-- https://bugs.tizen.org/jira/browse/DEVT-122 ronan Le Martret-->
+  <project path="v8" name="eurogiciel-oss/tizen-v8.git" revision="tizen" tz:origin_name="platform/upstream/v8" tz:origin_revision="refs/changes/84/12584/2" tz:origin_remote="tizen-gerrit"/>
+   <!-- https://bugs.tizen.org/jira/browse/DEVT-121 ronan Le Martret-->
+   <project path="bc" name="eurogiciel-oss/tizen-bc.git" revision="tizen" tz:origin_name="platform/upstream/bc" tz:origin_revision="refs/changes/77/12577/2" tz:origin_remote="tizen-gerrit"/>
   
   <!-- NEW PACKAGE -->
   <!-- https://bugs.tizen.org/jira/browse/DEVT-111 ronan Le Martret -->
